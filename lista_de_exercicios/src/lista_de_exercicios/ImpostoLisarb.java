@@ -1,5 +1,6 @@
 package lista_de_exercicios;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class ImpostoLisarb {
@@ -7,12 +8,12 @@ public class ImpostoLisarb {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		
 		double salario, imposto;
 		
 		System.out.println("Digite o salário:");
 		salario = sc.nextDouble();
 		
+		Locale.setDefault(Locale.US);
 		if(salario <= 2000.00) {
 			System.out.println("Isento");
 			
