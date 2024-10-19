@@ -37,7 +37,7 @@ public class PedidoDeComida {
 			System.out.println("Digite um código que seja válido!");
 		}
 		
-		System.out.printf("O total a pagar é de: R$%f", contaTotal);
+		System.out.printf("O total a pagar é de: R$%.2f", contaTotal);
 		
 		sc.close();
 
