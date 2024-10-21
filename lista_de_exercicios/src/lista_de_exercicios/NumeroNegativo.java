@@ -20,6 +20,7 @@ public class NumeroNegativo {
 			System.out.println("NÃO NEGATIVO");
 		}
 
+		sc.close();
 	}
 
 }

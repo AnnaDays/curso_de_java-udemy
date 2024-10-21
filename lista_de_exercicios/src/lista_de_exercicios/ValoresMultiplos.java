@@ -19,6 +19,8 @@ public class ValoresMultiplos {
 		} else {
 			System.out.println("Não são Múltiplos!");
 		}
+		
+		sc.close();
 
 	}
 

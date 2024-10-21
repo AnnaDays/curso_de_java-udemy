@@ -18,6 +18,8 @@ public class NumeroPar {
 		} else {
 			System.out.println("ÍMPAR");
 		}
+		
+		sc.close();
 
 	}
 

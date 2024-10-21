@@ -25,7 +25,8 @@ public class DiferencaDoProduto {
 		diferenca = (a * b - c * d);
 		
 		System.out.printf("A diferença de A: %d,  B: %d,  C: %d e D: %d é %d", a, b, c, d, diferenca);
-
+		
+		sc.close();
 	}
 
 }
